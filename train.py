@@ -4,6 +4,7 @@ from pathlib import Path
 
 import torch
 from sb3_contrib import RecurrentPPO
+from stable_baselines3.common.callbacks import BaseCallback
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 from snake_env import SnakeEnv
@@ -11,12 +12,11 @@ from snake_env import SnakeEnv
 # ── Configuration defaults ─────
 DEFAULTS = {
     "grid_size": 10,
-    "total_timesteps": 500_000,
+    "total_timesteps": 250_000,
     "render_every": 20_000,
     "render_episodes": 3,
     "checkpoint_dir": "checkpoints",
     "load_checkpoint": None,
-
     # PPO hyperparameters
     "learning_rate": 5e-4,
     "n_steps": 128,
@@ -26,7 +26,8 @@ DEFAULTS = {
     "gae_lambda": 0.95,
     "clip_range": 0.2,
     "ent_coef": 0.01,
-
+    # TensorBoard
+    "tb_log_dir": "tb_logs",
     # Reward shaping
     "reward_food": 50.0,
     "reward_crash": -500.0,
@@ -50,6 +51,16 @@ def parse_args() -> argparse.Namespace:
         else:
             p.add_argument(flag, default=default, type=type(default))
     return p.parse_args()
+
+
+class SnakeMetricsCallback(BaseCallback):
+    """Log custom snake metrics to TensorBoard on each episode end."""
+
+    def _on_step(self) -> bool:
+        for info in self.locals.get("infos", []):
+            if "episode" in info:
+                self.logger.record("snake/score", info["score"])
+        return True
 
 
 def detect_device() -> str:
@@ -120,6 +131,7 @@ def train(args: argparse.Namespace) -> None:
             gae_lambda=args.gae_lambda,
             clip_range=args.clip_range,
             ent_coef=args.ent_coef,
+            tensorboard_log=args.tb_log_dir,
             verbose=1,
             device=device,
         )
@@ -134,7 +146,11 @@ def train(args: argparse.Namespace) -> None:
         print(f"Training steps {trained_so_far} → {trained_so_far + chunk}")
         print(f"{'=' * 60}")
 
-        model.learn(total_timesteps=chunk, reset_num_timesteps=False)
+        model.learn(
+            total_timesteps=chunk,
+            reset_num_timesteps=False,
+            callback=SnakeMetricsCallback(),
+        )
         trained_so_far += chunk
 
         # Save checkpoint
