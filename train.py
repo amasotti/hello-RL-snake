@@ -12,8 +12,8 @@ from snake_env import SnakeEnv
 DEFAULTS = {
     "grid_size": 10,
     "total_timesteps": 500_000,
-    "render_every": 10_000,
-    "render_episodes": 5,
+    "render_every": 20_000,
+    "render_episodes": 3,
     "checkpoint_dir": "checkpoints",
     "load_checkpoint": None,
 
