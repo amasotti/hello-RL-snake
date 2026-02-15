@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hello-rl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: add README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +67,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771094891601</updated>
-      <workItem from="1771094892662" duration="7275000" />
+      <workItem from="1771094892662" duration="7925000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: implement snake game (gym compatible)">
+      <option name="closed" value="true" />
+      <created>1771138618282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771138618282</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: implement training logic for RL">
+      <option name="closed" value="true" />
+      <created>1771138874693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771138874693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs: add README.md">
+      <option name="closed" value="true" />
+      <created>1771139107612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771139107612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: implement snake game (gym compatible)" />
+    <MESSAGE value="feat: implement training logic for RL" />
+    <MESSAGE value="docs: add README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add README.md" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
