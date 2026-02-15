@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: document moniroting" />
+    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="feat: add LICENSE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771094891601</updated>
-      <workItem from="1771094892662" duration="10172000" />
+      <workItem from="1771094892662" duration="10651000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement snake game (gym compatible)">
       <option name="closed" value="true" />
@@ -137,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771141487685</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add LICENSE">
+      <option name="closed" value="true" />
+      <created>1771141724738</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771141724738</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +163,8 @@
     <MESSAGE value="docs: update README.md" />
     <MESSAGE value="feat: add monitoring" />
     <MESSAGE value="docs: document moniroting" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: document moniroting" />
+    <MESSAGE value="feat: add LICENSE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add LICENSE" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -74,6 +74,11 @@ Then open <http://localhost:6006> in your browser. Available metrics:
 | `rollout/ep_len_mean`          | Mean episode length                                                          |
 | `snake/score`                  | Food eaten per episode                                                       |
 
+
+**Example of Board Metrics:**
+
+![TensorBoard Metrics](tensorboard_example.png)
+
 ## What the agent sees
 
 The observation is a 15-dimensional feature vector:
