@@ -3,8 +3,12 @@
 A learning project for [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning): train a recurrent
 PPO agent to play Snake using [Gymnasium](https://gymnasium.farama.org/index.html).
 
+Have a look at this list of [Resources for Reinforcement Learning](Reinforcement_Learning.md) if you want to learn more about the field.
+
 The agent starts completely random and gradually learns to seek food and avoid walls. Training pauses periodically to
 render episodes with Pygame so you can watch it improve in real time.
+
+![Snake Training](screenshot.png)
 
 ## Setup
 
@@ -39,6 +43,8 @@ uv run python train.py
 | `--reward-food` | 10.0 | Reward for eating food |
 | `--reward-crash` | -100.0 | Penalty for hitting wall/self |
 | `--reward-step` | -0.1 | Per-step penalty |
+
+Check out [EXPERIMENTS.md](EXPERIMENTS.md) for ideas on how to play around with these parameters and see their effects.
 
 ## What the agent sees
 

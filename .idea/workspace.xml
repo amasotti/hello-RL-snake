@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: add a guide about tunable parameters" />
+    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: add RL Resources">
+      <change afterPath="$PROJECT_DIR$/Screenshot 2026-02-15 at 08.31.15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake_env.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +47,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/antoniomasotti/toni/100_programming/140_llm/hello-rl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771094891601</updated>
-      <workItem from="1771094892662" duration="8236000" />
+      <workItem from="1771094892662" duration="9420000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement snake game (gym compatible)">
       <option name="closed" value="true" />
@@ -99,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771139408266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="docs: add RL Resources">
+      <option name="closed" value="true" />
+      <created>1771139790532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771139790532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +124,8 @@
     <MESSAGE value="feat: implement training logic for RL" />
     <MESSAGE value="docs: add README.md" />
     <MESSAGE value="docs: add a guide about tunable parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: add a guide about tunable parameters" />
+    <MESSAGE value="docs: add RL Resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: add RL Resources" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

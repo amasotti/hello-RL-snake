@@ -198,14 +198,14 @@ class SnakeEnv(gym.Env):
             pygame.display.set_caption("Snake RL")
             self._clock = pygame.time.Clock()
 
-        self._window.fill(WHITE)
+        self._window.fill(BLACK)
 
         # Draw grid
         size = self.grid_size * self._cell_size
         for i in range(self.grid_size + 1):
             pos = i * self._cell_size
-            pygame.draw.line(self._window, BLACK, (pos, 0), (pos, size))
-            pygame.draw.line(self._window, BLACK, (0, pos), (size, pos))
+            pygame.draw.line(self._window, GRAY, (pos, 0), (pos, size))
+            pygame.draw.line(self._window, GRAY, (0, pos), (size, pos))
 
         # Draw snake body
         for r, c in self.snake:
