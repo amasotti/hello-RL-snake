@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: update README.md">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
-    </list>
+    <list default="true" id="324c06a4-b5d1-4765-aa92-d379257fa183" name="Changes" comment="docs: document moniroting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771094891601</updated>
-      <workItem from="1771094892662" duration="9797000" />
+      <workItem from="1771094892662" duration="10172000" />
     </task>
     <task id="LOCAL-00001" summary="feat: implement snake game (gym compatible)">
       <option name="closed" value="true" />
@@ -127,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771140812472</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add monitoring">
+      <option name="closed" value="true" />
+      <created>1771141438307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771141438307</updated>
+    </task>
+    <task id="LOCAL-00008" summary="docs: document moniroting">
+      <option name="closed" value="true" />
+      <created>1771141487685</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771141487685</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +150,9 @@
     <MESSAGE value="docs: add a guide about tunable parameters" />
     <MESSAGE value="docs: add RL Resources" />
     <MESSAGE value="docs: update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md" />
+    <MESSAGE value="feat: add monitoring" />
+    <MESSAGE value="docs: document moniroting" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: document moniroting" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

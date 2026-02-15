@@ -1,5 +1,11 @@
 # Hello RL - Snake Game Training
 
+[![Python 3.14+](https://img.shields.io/badge/Python-3.14%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-1.2.3-4B8BBE?logo=openaigym&logoColor=white)](https://gymnasium.farama.org/)
+[![Stable Baselines3](https://img.shields.io/badge/Stable--Baselines3-PPO+LSTM-orange)](https://stable-baselines3.readthedocs.io/)
+[![Pygame](https://img.shields.io/badge/Pygame-CE-00CC00?logo=pygame&logoColor=white)](https://pyga.me/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A learning project for [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning): train a recurrent
 PPO agent to play Snake using [Gymnasium](https://gymnasium.farama.org/index.html).
 
